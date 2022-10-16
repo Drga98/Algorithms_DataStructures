@@ -19,7 +19,7 @@ public:
     ~Linked_List()= default;
 
     // Por defecto inserta al final de la Lista
-    void insert(int value, int pos);
+    void insert(int value, int pos = INT_MAX);
 
     void show() const;
 

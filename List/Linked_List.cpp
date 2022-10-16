@@ -9,7 +9,7 @@ Linked_List::Linked_List(){
     cant = 0;
 }
 
-void Linked_List::insert(int value, int pos = INT_MAX){
+void Linked_List::insert(int value, int pos){
     auto *nuevo = new List_Node(value);
     List_Node *tmp = head;
     for(int i = 0; (i < pos && tmp->next != nullptr); i++){

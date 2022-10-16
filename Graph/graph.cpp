@@ -12,5 +12,5 @@ class Edge{
 };
 
 int main(){
-    
+
 }

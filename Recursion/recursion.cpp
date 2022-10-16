@@ -48,17 +48,17 @@ n=5:             fib(4)[3]                  +                     [2]fib(3)   = 
 */
 
 int main(){
-    
+
     // Factorial
     cout << "Factorial: " << factorial(5) << endl;
-    
+
     // Suma
     int Elements = 7;
     cout << "Suma: " << sumar(Elements) << endl;
-    
+
     // Potencia
     cout << "Potencia: " << potencia(2, 10) << endl;
-    
+
     // Mostrar secuencia Fibonacci hasta un numero
     int lim = 6;
     cout << "Fib: ";
