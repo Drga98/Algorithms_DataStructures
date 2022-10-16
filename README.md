@@ -1,6 +1,6 @@
 # Algorithms_DataStructures
 
-'''Algorithms_DataStructures contains implemented classes for differents data structures in C++ and some useful sorting and searching functions used in these data structures.'''
+Algorithms_DataStructures contains implemented classes for differents data structures in C++ and some useful sorting and searching functions used in these data structures.
 
 ## Installation
 
