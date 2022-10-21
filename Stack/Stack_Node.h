@@ -5,15 +5,18 @@
 #ifndef ALGORITHMS_DATASTRUCTURES_LIST_List_Node_H
 #define ALGORITHMS_DATASTRUCTURES_LIST_List_Node_H
 
-class List_Node {
+
+#include <cstddef>
+
+class Stack_Node {
 
 public:
     int data;
-    List_Node *next;
+    Stack_Node *next;
 
-    List_Node()= default;
+    Stack_Node()= default;
 
-    explicit List_Node (int n);
+    explicit Stack_Node (int n);
 
 };
 
