@@ -24,7 +24,7 @@ target_include_directories(Graph PUBLIC Graph/)
 
 add_executable(Recursion
         Recursion/mainRecur.cpp
-        Recursion/Recursion.cpp)
+        )
 target_include_directories(Recursion PUBLIC Recursion/)
 
 add_executable(Stack

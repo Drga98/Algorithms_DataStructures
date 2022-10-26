@@ -20,7 +20,7 @@ public:
 
     void getStack(int &n);
 
-    void showStack();
+    void showStack() const;
 
 };
 

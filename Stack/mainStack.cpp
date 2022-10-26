@@ -34,7 +34,7 @@ void menu(){
                 system("pause");
                 break;
             case 3:
-                if(s.stack != NULL){
+                if(s.stack != nullptr){
                     s.getStack(data);
                     cout << "Elemento " << data << " extraido correctamente " << endl;
                 }else
